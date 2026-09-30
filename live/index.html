@@ -57,6 +57,12 @@
   .venue-card h2 { font-family: 'Cormorant Garamond', serif; font-weight: 500; font-size: 1.5rem; color: var(--gold-soft); margin-bottom: 8px; }
   .venue-card p { color: var(--text-dim); font-size: 0.92rem; line-height: 1.7; }
 
+  .venue-card { display: block; transition: all 0.35s ease; }
+  a.venue-card:hover { border-color: var(--gold); background: rgba(201,168,76,0.06); transform: translateY(-2px); }
+  .map-link { display: inline-block; margin-top: 14px; font-size: 0.68rem; letter-spacing: 0.16em; text-transform: uppercase; color: var(--gold); }
+  .map-link::after { content: " \2197"; }
+  .cal-title { scroll-margin-top: 90px; font-size: 0.72rem; letter-spacing: 0.28em; text-transform: uppercase; color: var(--gold); margin-bottom: 18px; }
+
   .btn {
     display: inline-block; padding: 15px 30px; font-size: 0.78rem; letter-spacing: 0.14em;
     text-transform: uppercase; border: 1px solid var(--gold); transition: all 0.35s ease;
@@ -109,17 +115,20 @@
   <p class="tag" data-i18n="tag">Regular evenings and brunches at two of Lyon's best addresses. Come and say hello.</p>
 
   <div class="venue-cards">
-    <div class="venue-card">
+    <a class="venue-card" href="https://www.google.com/maps/search/?api=1&query=Sofitel%20Lyon%20Bellecour%2C%2020%20quai%20Gailleton%2C%2069002%20Lyon" target="_blank" rel="noopener">
       <h2>Sofitel Lyon Bellecour</h2>
       <p><span data-i18n="sofitelWhere">At the Le Melhor bar, 8th floor</span><br>20 quai Gailleton, 69002 Lyon</p>
-    </div>
-    <div class="venue-card">
+      <span class="map-link" data-i18n="seeMap">See on map</span>
+    </a>
+    <a class="venue-card" href="https://www.google.com/maps/search/?api=1&query=Mademoiselle%20Simone%2C%2026%20cours%20de%20Verdun%20Perrache%2C%2069002%20Lyon" target="_blank" rel="noopener">
       <h2>Mademoiselle Simone</h2>
       <p><span data-i18n="simoneWhere">Restaurant and jazz bar</span><br>26 cours de Verdun Perrache, 69002 Lyon</p>
-    </div>
+      <span class="map-link" data-i18n="seeMap">See on map</span>
+    </a>
   </div>
 
-  <div class="cal-actions" id="agenda">
+  <p class="cal-title" id="agenda" data-i18n="chooseCal">Add the dates to your calendar</p>
+  <div class="cal-actions">
     <a class="btn btn-solid" href="webcal://music.theinternationalmusician.com/performer/lara_bruyelles_concerts.ics" data-i18n="calApple">Apple Calendar</a>
     <a class="btn btn-solid" href="https://calendar.google.com/calendar/r?cid=webcal://music.theinternationalmusician.com/performer/lara_bruyelles_concerts.ics" target="_blank" rel="noopener" data-i18n="calGoogle">Google Calendar</a>
     <a class="btn btn-ghost" href="https://music.theinternationalmusician.com/performer/lara_bruyelles_concerts.ics" download data-i18n="calOther">Outlook / other (download)</a>
@@ -165,6 +174,8 @@
       calOther: "Outlook / other (download)",
       calNote: "Apple and Google add my dates as a calendar that updates itself. You can remove it in one tap.",
       pdfLink: "Download the dates (PDF)",
+      seeMap: "See on map",
+      chooseCal: "Add the dates to your calendar",
       datesMore: "See all dates",
       datesLess: "Show fewer dates",
       noDates: "New dates coming soon.",
@@ -186,6 +197,8 @@
       calOther: "Outlook / autre (téléchargement)",
       calNote: "Apple et Google ajoutent mes dates sous forme d'un agenda qui se met à jour tout seul. Vous pouvez le supprimer en un geste.",
       pdfLink: "Télécharger les dates (PDF)",
+      seeMap: "Voir sur la carte",
+      chooseCal: "Ajouter les dates à votre agenda",
       datesMore: "Voir toutes les dates",
       datesLess: "Voir moins de dates",
       noDates: "De nouvelles dates arrivent bientôt.",
