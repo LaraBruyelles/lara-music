@@ -46,23 +46,25 @@ TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
 UID:20261016-S@larabruyelles.concerts
-DTSTAMP:20260930T120000Z
+DTSTAMP:20261013T152000Z
 DTSTART;TZID=Europe/Paris:20261016T183000
-DTEND;TZID=Europe/Paris:20261017T000000
+DTEND;TZID=Europe/Paris:20261017T003000
 SUMMARY:Lara Bruyelles en concert - Le Melhor
 LOCATION:Le Melhor (8e étage)\, Sofitel Lyon Bellecour\, 20 quai Gailleton\, 69002 Lyon
 DESCRIPTION:Lara Bruyelles\, pianiste-chanteuse\, en live au bar Le Melhor à partir de 18h30.
+SEQUENCE:1
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
 UID:20261031-S@larabruyelles.concerts
-DTSTAMP:20260930T120000Z
+DTSTAMP:20261013T152000Z
 DTSTART;TZID=Europe/Paris:20261031T183000
-DTEND;TZID=Europe/Paris:20261101T000000
+DTEND;TZID=Europe/Paris:20261101T003000
 SUMMARY:Lara Bruyelles en concert - Le Melhor
 LOCATION:Le Melhor (8e étage)\, Sofitel Lyon Bellecour\, 20 quai Gailleton\, 69002 Lyon
 DESCRIPTION:Lara Bruyelles\, pianiste-chanteuse\, en live au bar Le Melhor à partir de 18h30.
+SEQUENCE:1
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 END:VEVENT
@@ -79,12 +81,13 @@ TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
 UID:20261120-S@larabruyelles.concerts
-DTSTAMP:20260930T120000Z
+DTSTAMP:20261013T152000Z
 DTSTART;TZID=Europe/Paris:20261120T183000
-DTEND;TZID=Europe/Paris:20261121T000000
+DTEND;TZID=Europe/Paris:20261121T003000
 SUMMARY:Lara Bruyelles en concert - Le Melhor
 LOCATION:Le Melhor (8e étage)\, Sofitel Lyon Bellecour\, 20 quai Gailleton\, 69002 Lyon
 DESCRIPTION:Lara Bruyelles\, pianiste-chanteuse\, en live au bar Le Melhor à partir de 18h30.
+SEQUENCE:1
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 END:VEVENT
@@ -101,12 +104,13 @@ TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
 UID:20261205-S@larabruyelles.concerts
-DTSTAMP:20260930T120000Z
+DTSTAMP:20261013T152000Z
 DTSTART;TZID=Europe/Paris:20261205T183000
-DTEND;TZID=Europe/Paris:20261206T000000
+DTEND;TZID=Europe/Paris:20261206T003000
 SUMMARY:Lara Bruyelles en concert - Le Melhor
 LOCATION:Le Melhor (8e étage)\, Sofitel Lyon Bellecour\, 20 quai Gailleton\, 69002 Lyon
 DESCRIPTION:Lara Bruyelles\, pianiste-chanteuse\, en live au bar Le Melhor à partir de 18h30.
+SEQUENCE:1
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 END:VEVENT
@@ -123,32 +127,45 @@ TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
 UID:20270109-S@larabruyelles.concerts
-DTSTAMP:20260930T120000Z
+DTSTAMP:20261013T152000Z
 DTSTART;TZID=Europe/Paris:20270109T183000
-DTEND;TZID=Europe/Paris:20270110T000000
+DTEND;TZID=Europe/Paris:20270110T003000
 SUMMARY:Lara Bruyelles en concert - Le Melhor
 LOCATION:Le Melhor (8e étage)\, Sofitel Lyon Bellecour\, 20 quai Gailleton\, 69002 Lyon
 DESCRIPTION:Lara Bruyelles\, pianiste-chanteuse\, en live au bar Le Melhor à partir de 18h30.
+SEQUENCE:1
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
 UID:20270129-S@larabruyelles.concerts
-DTSTAMP:20261013T150000Z
+DTSTAMP:20261013T152000Z
 DTSTART;TZID=Europe/Paris:20270130T183000
-DTEND;TZID=Europe/Paris:20270131T000000
+DTEND;TZID=Europe/Paris:20270131T003000
 SUMMARY:Lara Bruyelles en concert - Le Melhor
 LOCATION:Le Melhor (8e étage)\, Sofitel Lyon Bellecour\, 20 quai Gailleton\, 69002 Lyon
 DESCRIPTION:Lara Bruyelles\, pianiste-chanteuse\, en live au bar Le Melhor à partir de 18h30.
-SEQUENCE:1
+SEQUENCE:2
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
 UID:20270305-S@larabruyelles.concerts
-DTSTAMP:20261013T150000Z
+DTSTAMP:20261013T152000Z
 DTSTART;TZID=Europe/Paris:20270205T183000
-DTEND;TZID=Europe/Paris:20270206T000000
+DTEND;TZID=Europe/Paris:20270206T003000
+SUMMARY:Lara Bruyelles en concert - Le Melhor
+LOCATION:Le Melhor (8e étage)\, Sofitel Lyon Bellecour\, 20 quai Gailleton\, 69002 Lyon
+DESCRIPTION:Lara Bruyelles\, pianiste-chanteuse\, en live au bar Le Melhor à partir de 18h30.
+SEQUENCE:2
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:20270213-S@larabruyelles.concerts
+DTSTAMP:20261013T152000Z
+DTSTART;TZID=Europe/Paris:20270213T183000
+DTEND;TZID=Europe/Paris:20270214T003000
 SUMMARY:Lara Bruyelles en concert - Le Melhor
 LOCATION:Le Melhor (8e étage)\, Sofitel Lyon Bellecour\, 20 quai Gailleton\, 69002 Lyon
 DESCRIPTION:Lara Bruyelles\, pianiste-chanteuse\, en live au bar Le Melhor à partir de 18h30.
@@ -157,68 +174,62 @@ STATUS:CONFIRMED
 TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
-UID:20270213-S@larabruyelles.concerts
-DTSTAMP:20260930T120000Z
-DTSTART;TZID=Europe/Paris:20270213T183000
-DTEND;TZID=Europe/Paris:20270214T000000
-SUMMARY:Lara Bruyelles en concert - Le Melhor
-LOCATION:Le Melhor (8e étage)\, Sofitel Lyon Bellecour\, 20 quai Gailleton\, 69002 Lyon
-DESCRIPTION:Lara Bruyelles\, pianiste-chanteuse\, en live au bar Le Melhor à partir de 18h30.
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
 UID:20270320-S@larabruyelles.concerts
-DTSTAMP:20260930T120000Z
+DTSTAMP:20261013T152000Z
 DTSTART;TZID=Europe/Paris:20270320T183000
-DTEND;TZID=Europe/Paris:20270321T000000
+DTEND;TZID=Europe/Paris:20270321T003000
 SUMMARY:Lara Bruyelles en concert - Le Melhor
 LOCATION:Le Melhor (8e étage)\, Sofitel Lyon Bellecour\, 20 quai Gailleton\, 69002 Lyon
 DESCRIPTION:Lara Bruyelles\, pianiste-chanteuse\, en live au bar Le Melhor à partir de 18h30.
+SEQUENCE:1
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
 UID:20270409-S@larabruyelles.concerts
-DTSTAMP:20260930T120000Z
+DTSTAMP:20261013T152000Z
 DTSTART;TZID=Europe/Paris:20270409T183000
-DTEND;TZID=Europe/Paris:20270410T000000
+DTEND;TZID=Europe/Paris:20270410T003000
 SUMMARY:Lara Bruyelles en concert - Le Melhor
 LOCATION:Le Melhor (8e étage)\, Sofitel Lyon Bellecour\, 20 quai Gailleton\, 69002 Lyon
 DESCRIPTION:Lara Bruyelles\, pianiste-chanteuse\, en live au bar Le Melhor à partir de 18h30.
+SEQUENCE:1
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
 UID:20270424-S@larabruyelles.concerts
-DTSTAMP:20260930T120000Z
+DTSTAMP:20261013T152000Z
 DTSTART;TZID=Europe/Paris:20270424T183000
-DTEND;TZID=Europe/Paris:20270425T000000
+DTEND;TZID=Europe/Paris:20270425T003000
 SUMMARY:Lara Bruyelles en concert - Le Melhor
 LOCATION:Le Melhor (8e étage)\, Sofitel Lyon Bellecour\, 20 quai Gailleton\, 69002 Lyon
 DESCRIPTION:Lara Bruyelles\, pianiste-chanteuse\, en live au bar Le Melhor à partir de 18h30.
+SEQUENCE:1
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
 UID:20270514-S@larabruyelles.concerts
-DTSTAMP:20260930T120000Z
+DTSTAMP:20261013T152000Z
 DTSTART;TZID=Europe/Paris:20270514T183000
-DTEND;TZID=Europe/Paris:20270515T000000
+DTEND;TZID=Europe/Paris:20270515T003000
 SUMMARY:Lara Bruyelles en concert - Le Melhor
 LOCATION:Le Melhor (8e étage)\, Sofitel Lyon Bellecour\, 20 quai Gailleton\, 69002 Lyon
 DESCRIPTION:Lara Bruyelles\, pianiste-chanteuse\, en live au bar Le Melhor à partir de 18h30.
+SEQUENCE:1
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
 UID:20270529-S@larabruyelles.concerts
-DTSTAMP:20260930T120000Z
+DTSTAMP:20261013T152000Z
 DTSTART;TZID=Europe/Paris:20270529T183000
-DTEND;TZID=Europe/Paris:20270530T000000
+DTEND;TZID=Europe/Paris:20270530T003000
 SUMMARY:Lara Bruyelles en concert - Le Melhor
 LOCATION:Le Melhor (8e étage)\, Sofitel Lyon Bellecour\, 20 quai Gailleton\, 69002 Lyon
 DESCRIPTION:Lara Bruyelles\, pianiste-chanteuse\, en live au bar Le Melhor à partir de 18h30.
+SEQUENCE:1
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 END:VEVENT
